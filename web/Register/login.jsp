@@ -1,4 +1,4 @@
-﻿<%--    
+﻿<%--
   Created by IntelliJ IDEA.
   User: HP
   Date: 2018/4/9
@@ -36,9 +36,7 @@
                     <input type="submit" value="登陆">
                 </td>
                 <td>
-                    <form action="register.jsp">
-                        <input type="submit" value="注册">
-                    </form>
+                    <input type="submit" formaction="register.jsp" value="注册">
                 </td>
             </tr>
         </table>
