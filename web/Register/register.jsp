@@ -34,7 +34,7 @@
             </tr>
             <tr>
                 <td> 性别</td>
-                <td><input type="radio" name="sex" value="male">男<input type="radio" name="sex" value="female">女<br>
+                <td><input type="radio" name="sex" checked value="male">男<input type="radio" name="sex" value="female">女<br>
             </tr>
             <tr>
                 <td> 爱好</td>

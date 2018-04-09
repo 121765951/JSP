@@ -12,15 +12,15 @@
 </head>
 <body>
 <%
-  /*  out.write(request.getParameter("username"));
-    out.write(request.getParameter("name"));
-    out.write(request.getParameter("sex"));
-    out.write(request.getParameter("hobby"));
-    out.write(request.getParameter("age"));
-    out.write(request.getParameter("remakes"));
-
-*/
+    out.write("欢迎登陆" + session.getAttribute("name"));
+    if (session.getAttribute("sex").equals("male")) {
+        out.write("先生<br>");
+    } else if (session.getAttribute("sex").equals("female")) {
+        out.write("女士<br>");
+    }
+    out.write("年龄:" + session.getAttribute("age") + "<br>");
+    out.write("爱好:" + session.getAttribute("hobby") + "<br>");
+    out.write("备注:" + session.getAttribute("remakes") + "<br>");
 %>
-<%=request.getParameter("username")%>
 </body>
 </html>
